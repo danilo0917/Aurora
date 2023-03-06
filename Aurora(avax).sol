@@ -6,7 +6,9 @@
 //
 // AURA PROTOCOL COPYRIGHT (C) 2022 
 
-pragma solidity ^0.7.4;
+
+
+pragma solidity ^0.7.4; 
 
 library SafeMathInt {
     int256 private constant MIN_INT256 = int256(1) << 255;
