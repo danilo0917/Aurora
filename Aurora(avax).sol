@@ -13,7 +13,7 @@ pragma solidity ^0.7.4;
 library SafeMathInt {
     int256 private constant MIN_INT256 = int256(1) << 255;
     int256 private constant MAX_INT256 = ~(int256(1) << 255);
-
+  
     function mul(int256 a, int256 b) internal pure returns (int256) {
         int256 c = a * b;
 
